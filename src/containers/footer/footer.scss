@@ -1,4 +1,4 @@
-@import '../../variables';
+@import '../../styles/variables';
 
 .gpt3__footer {
   display: flex;
@@ -97,18 +97,18 @@
         cursor: pointer;
       }
     }
+  }
 
-    .gpt3__footer-copyright {
-      width: 100%;
-      text-align: center;
-      margin-top: 2rem;
+  .gpt3__footer-copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
 
-      p {
-        font-family: $font-family;
-        font-size: 12px;
-        line-height: 14px;
-        color: white;
-      }
+    p {
+      font-family: $font-family;
+      font-size: 12px;
+      line-height: 14px;
+      color: white;
     }
   }
 }
